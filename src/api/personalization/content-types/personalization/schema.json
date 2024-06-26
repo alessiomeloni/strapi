@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "personalizations",
+  "info": {
+    "singularName": "personalization",
+    "pluralName": "personalizations",
+    "displayName": "Personalization",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroTitle": {
+      "type": "text",
+      "required": true
+    },
+    "heroSubtitle": {
+      "type": "text",
+      "required": true
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
